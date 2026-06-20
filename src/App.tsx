@@ -1,5 +1,5 @@
-import React from 'react';
+import { DefaultLayout } from './layout/DefaultLayout';
 
 export default function App() {
-  return <div>App</div>;
+  return <DefaultLayout>App</DefaultLayout>;
 }

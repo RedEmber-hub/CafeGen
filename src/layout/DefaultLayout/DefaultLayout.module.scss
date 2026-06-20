@@ -1,0 +1,18 @@
+.defaultLayout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header {
+  flex-shrink: 0;
+  min-height: 70px;
+  padding: 12px 32px;
+  border-bottom: 1px solid rgba(44, 26, 14, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.body {
+  flex: 1;
+  padding: 24px 32px;
+}
