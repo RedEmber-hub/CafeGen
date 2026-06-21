@@ -1,0 +1,30 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.logoImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background-color: #c8863a;
+  border-radius: 12px;
+}
+
+.logoText {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c1a0e;
+}
+
+.logoTag {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 9px;
+  background-color: rgba(200, 134, 58, 0.12);
+  color: #c8863a;
+  letter-spacing: 0.72px;
+}
