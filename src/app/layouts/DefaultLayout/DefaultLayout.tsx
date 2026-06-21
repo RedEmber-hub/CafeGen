@@ -1,3 +1,4 @@
+import { Logo } from '@/shared/components/Logo';
 import styles from './DefaultLayout.module.scss';
 import { DefaultLayoutProps } from './DefaultLayout.props';
 
@@ -7,7 +8,7 @@ export default function DefaultLayout({ children }: DefaultLayoutProps) {
   return (
     <div className={styles.defaultLayout}>
       <header className={styles.header}>
-        <Header leading={<h1>Logo</h1>} center={<div>stepper</div>} trailing={<div>step</div>} />
+        <Header leading={<Logo />} center={<div>stepper</div>} trailing={<div>step</div>} />
       </header>
 
       <main className={styles.body}>{children}</main>
