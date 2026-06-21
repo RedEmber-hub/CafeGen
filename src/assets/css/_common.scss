@@ -1,5 +1,3 @@
-// base
-// обязательно
 *,
 *:before,
 *:after {
@@ -9,7 +7,6 @@
   padding: 0;
 }
 
-// обязательно
 html {
   height: 100%;
   width: 100%;
@@ -18,13 +15,15 @@ html {
   margin-right: calc(-1 * (100vw - 100%)) !important;
 }
 
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 #root {
   height: 100dvh;
-
   display: flex;
 }
 
-// обязательно
 img,
 video {
   height: 100%;
@@ -35,7 +34,6 @@ svg {
   display: flex;
 }
 
-//троеточие после текста
 .text-truncated {
   white-space: nowrap;
   overflow: hidden;
@@ -65,13 +63,11 @@ svg {
       height: 100%;
       width: 150px;
       background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #e8e8e8 50%, rgba(255, 255, 255, 0) 100%);
-      // loadSkeleton - имя анимации
       animation: loadSkeleton 1.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
     }
   }
 }
 
-// анимация скелетона
 @keyframes loadSkeleton {
   from {
     left: -150px;

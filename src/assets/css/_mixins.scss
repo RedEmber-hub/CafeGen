@@ -1,55 +1,5 @@
-/* 
-mixin аналог функции в js, т.е все содержимое миксина развернется в месте вызова @include
-
-Конечный результат будет выглядеть, как показано ниже
-
 @mixin baseFont {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  margin: 0;
-
-  &--regular {
-    font-weight: 400 !important;
-  }
-
-  &--medium {
-    font-weight: 500 !important;
-  }
-
-  &--bold {
-    font-weight: 600 !important;
-  }
-}
-
-
-@mixin text-main {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  margin: 0;
-
-  &--regular {
-    font-weight: 400 !important;
-  }
-
-  &--medium {
-    font-weight: 500 !important;
-  }
-
-  &--bold {
-    font-weight: 600 !important;
-  }
-
-  font-size: 16px;
-  line-height: 125%;
-}
-
-
-Чтобы использовать класс нужно написать базовый класс, т.е .text-main, если нужно указать жирность текста, то использовать модификатор, например .text-main--bold
-*/
-
-@mixin baseFont {
-  //то, что используется везде
-  font-family: 'Inter', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-style: normal;
   margin: 0;
 
