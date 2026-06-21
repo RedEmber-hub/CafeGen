@@ -1,4 +1,4 @@
-import { DefaultLayout } from './layout/DefaultLayout';
+import { DefaultLayout } from './app/layouts/DefaultLayout';
 
 export default function App() {
   return <DefaultLayout>App</DefaultLayout>;
